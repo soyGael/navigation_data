@@ -12,14 +12,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="pending"
+        name="securestore"
         options={{
           title: 'SecureStore',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="key" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="finished"
+        name="sqlite"
         options={{
           title: 'SQLite',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="database" color={color} />,
